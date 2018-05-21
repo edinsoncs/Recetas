@@ -1,3 +1,63 @@
 page-home {
 
+  $colorPrimary:#e74c3c;
+
+ .is__Home {
+   background-image: url('http://labipo.com.mx/wp-content/uploads/2016/06/bgcomida-new.jpg');
+   background-color: $colorPrimary;
+   background-position: center;
+   background-size:cover;
+   background-repeat: no-repeat;
+   .is__Header {
+     box-shadow: none!important;
+     text-align: center;
+     box-shadow: none;
+     margin-top: 15%;
+     h1 {
+       color: white;
+       font-size: 40px;
+     }
+     p {
+       color: white;
+       font-weight: 400;
+       font-size: 14px;
+       margin: 0;
+     }
+
+     &:after {
+       display: none!important;
+     }
+
+   }
+
+   .is__Socials {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     button {
+       display: block;
+       width: 90%;
+			 margin: 0.8em auto;
+       padding: 15px 0;
+       line-height: 10px;
+       margin-bottom: 10px;
+       height: 50px;
+     }
+     button.google {
+       background: white;
+       color: red;
+     }
+     button.white {
+       background: $colorPrimary;
+       color: white;
+     }
+     button.create {
+       color: white;
+     }
+   }
+
+ }
+
 }
