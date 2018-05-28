@@ -17,14 +17,10 @@
 
 	<div class="is__Header">
 	      <h1>COOFLY</h1>
-	      <p>Crea una cuenta y disfruta de nuestra comunidad</p>
+	      <p>Ingresa con un un email y contraseña</p>
 	</div>
 	<ion-list>
 
-	  <ion-item class="ion-item-block">
-	    <ion-label floating>Nombre</ion-label>
-	    <ion-input type="text"></ion-input>
-	  </ion-item>
 
 	  <ion-item class="ion-item-block">
 	    <ion-label floating>Email</ion-label>
@@ -37,12 +33,7 @@
 	  </ion-item>
 
 	  <ion-item class="ion-item-block">
-	    <ion-label floating>Confirmar Password</ion-label>
-	    <ion-input type="password"></ion-input>
-	  </ion-item>
-
-	  <ion-item class="ion-item-block">
-	  	<button ion-button class="submit" type="submit" block>Crear cuenta</button>
+	  	<button ion-button class="submit" type="submit" (click)="dashboard();" block>Ingresar</button>
 	  </ion-item>
 
 
@@ -50,7 +41,7 @@
 
 
 	<div class="is__Home--Go">
-	  <span class="is__Home--Txt" (click)="home();">¿Tienes una cuenta?</span>
+	  <span class="is__Home--Txt" (click)="home();">¿A un no posees cuenta?</span>
 	</div>
 
 </ion-content>

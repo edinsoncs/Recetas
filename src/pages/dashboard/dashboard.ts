@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the DashboardPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { ViewPost } from '../viewpost/viewpost';
+
+
 
 @Component({
   selector: 'page-dashboard',
@@ -19,6 +16,12 @@ export class DashboardPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DashboardPage');
+  }
+
+  viewPost() {
+
+  	this.navCtrl.push(ViewPost);
+
   }
 
 }

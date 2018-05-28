@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import {NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the RegisterPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-register',
@@ -19,6 +14,12 @@ export class RegisterPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegisterPage');
+  }
+
+  home() {
+
+  	this.navCtrl.push(HomePage);
+
   }
 
 }

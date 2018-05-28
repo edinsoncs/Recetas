@@ -1,1 +1,29 @@
-<ion-nav [root]="rootPage"></ion-nav>
+
+<ion-menu [content]="mycontent" class="menu">
+  <ion-content padding>
+
+  	<ion-list class="list__Menu">
+     <ion-icon name="home"></ion-icon>  Inicio
+    </ion-list>
+    
+    <ion-list class="list__Menu">
+     <ion-icon name="person"></ion-icon>  Mi Perfil
+    </ion-list>
+	
+	<ion-list class="list__Menu">
+     <ion-icon name="pizza"></ion-icon>  Recetarios
+    </ion-list>
+
+    <ion-list class="list__Menu">
+     <ion-icon name="information-circle"></ion-icon>  Noticias
+    </ion-list>
+
+    <ion-list class="list__Menu">
+     <ion-icon name="contacts"></ion-icon>  Chefs
+    </ion-list>
+
+  </ion-content>
+</ion-menu>
+
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>
