@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 import { HomePage } from '../home/home';
-import { DashboardPage } from '../dashboard/dashboard';
+//import { DashboardPage } from '../dashboard/dashboard';
 
 @Component({
   selector: 'page-login',
@@ -25,7 +25,7 @@ export class LoginPage {
 
   dashboard() {
 
-  	this.navCtrl.push(DashboardPage);
+  	//this.navCtrl.push(DashboardPage);
 
   }
 

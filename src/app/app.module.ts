@@ -10,6 +10,9 @@ import { DashboardPage } from '../pages/dashboard/dashboard';
 import { RegisterPage } from '../pages/register/register';
 import { LoginPage } from '../pages/login/login';
 import { ViewpostPage } from '../pages/viewpost/viewpost';
+import { ProfilePage } from '../pages/profile/profile';
+import { ViewphotoPage } from '../pages/viewphoto/viewphoto';
+import { CartPage } from '../pages/cart/cart';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ViewpostPage } from '../pages/viewpost/viewpost';
     DashboardPage,
     RegisterPage,
     LoginPage,
-    ViewpostPage
+    ViewpostPage,
+    ProfilePage,
+    ViewphotoPage,
+    CartPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +37,10 @@ import { ViewpostPage } from '../pages/viewpost/viewpost';
     DashboardPage,
     RegisterPage,
     LoginPage,
-    ViewpostPage
+    ViewpostPage,
+    ProfilePage,
+    ViewphotoPage,
+    CartPage
   ],
   providers: [
     StatusBar,

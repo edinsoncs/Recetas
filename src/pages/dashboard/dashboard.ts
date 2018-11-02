@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { ViewPost } from '../viewpost/viewpost';
-
-
 
 @Component({
   selector: 'page-dashboard',
@@ -16,12 +13,6 @@ export class DashboardPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DashboardPage');
-  }
-
-  viewPost() {
-
-  	this.navCtrl.push(ViewPost);
-
   }
 
 }

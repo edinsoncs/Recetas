@@ -1,0 +1,46 @@
+page-viewphoto {
+
+
+	.photo__Content--Header {
+		padding: 20px;
+		h1 {
+			color: #7F7A79;
+		}
+		p {
+			color: #7F7A79;
+		}
+	}
+
+	.photo__Content--Image {
+		padding: 0 20px;
+		.image {
+			border: 1px solid #eee;
+		}
+		.options {
+			display: flex;
+			margin-top: 15px;
+			.socials:first-child {
+				margin-right: 10px;
+			}
+			i {
+				color: #aeaeae;
+				font-size: 20px;
+			}
+		}
+	}
+
+	.photo__Submit {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: #397fff;
+		padding: 18px;
+		.link {
+			color: white;
+			font-size: 20px;
+			text-decoration: none;
+		}
+	}
+
+}

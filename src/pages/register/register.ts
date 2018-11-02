@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {NavController, NavParams } from 'ionic-angular';
 
 import { HomePage } from '../home/home';
+import { ProfilePage } from '../profile/profile';
 
 @Component({
   selector: 'page-register',
@@ -10,6 +11,7 @@ import { HomePage } from '../home/home';
 export class RegisterPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
   }
 
   ionViewDidLoad() {
@@ -20,6 +22,10 @@ export class RegisterPage {
 
   	this.navCtrl.push(HomePage);
 
+  }
+
+  profilePage() {
+    this.navCtrl.push(ProfilePage);
   }
 
 }

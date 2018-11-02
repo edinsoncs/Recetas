@@ -1,18 +1,21 @@
 
 <ion-content padding class="is__Home">
-
   <div class="is__Header">
-      <h1>COOFLY</h1>
-      <p>Comunidad de cocineros en el mundo. unete a la red de cocineros y publica tus preparaciones diarias, disfruta de nuestra red social</p>
+      <h1>ZTAMPY</h1>
   </div>
 
   <div class="is__Logo">
-    <img src="assets/imgs/baker.svg" alt="" width="150">
+    <img src="assets/imgs/idea.svg" alt="" width="150">
   </div>
 
   <div [ngClass]="'is__Socials'">
-			<button ion-button color="dark" [ngClass]="'google'" (click)="login('google')">Ingresar con Google</button>
-			<button ion-button color="dark" [ngClass]="'white'" (click)="login('email')">Ingresar con email</button>
+			<button ion-button color="dark" [ngClass]="'google'" (click)="login('google')">
+        <i class="fab fa-google icon-t"></i>
+      Ingresar con Google</button>
+			<button ion-button color="dark" [ngClass]="'white'" (click)="login('email')">
+        <i class="fab fas fa-at icon-t"></i>
+        Ingresar con email
+      </button>
 			<button ion-button color="dark" clear [ngClass]="'create'" (click)="register()" >Crear cuenta</button>
 	</div>
 

@@ -1,0 +1,51 @@
+page-cart {
+
+	.header__Cart {
+		h1, p {
+			color: #7F7A79;
+		}
+	}
+
+	.content__Cart {
+		background: whitesmoke;
+	}
+	
+	.list__Cart{
+		.article{
+			display: flex;
+			background: white;
+			padding: 10px;
+			border-radius: 6px;
+      box-shadow: 0 10px 30px 0 rgba(0,0,0,0.10);
+      margin-bottom: 15px;			
+			.image{
+				width: 20%;
+				max-width: 22%;
+				margin-right: 10px;
+				img{
+					width: 100%;
+				}
+			}
+			.description {
+				.description__Name{
+					h2{
+						font-size: 16px;
+						color: #7F7A79;
+						    font-family: 'Lato', sans-serif;
+					}
+				}
+				
+				.description__Price{
+					margin-top: 5px;
+					.number {
+						font-size: 15px;
+						color: #e74c3c;
+						font-weight: 800;
+					}
+				}
+			}
+		}
+		
+	}
+
+}
